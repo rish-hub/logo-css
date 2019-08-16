@@ -1,0 +1,30 @@
+.infinity{
+    margin: 50px auto;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    border: 50px solid #1979f8;
+    border-top-left-radius: 50%; 
+    border-bottom-left-radius: 50%; 
+    border-bottom-right-radius: 50%; 
+    transform: rotateZ(45deg)
+}
+.infinity:after{
+    content: '';
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    border: 50px solid #1979f8;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    transform: rotateZ(-0deg);
+    left: 70px;
+    bottom: 70px;
+    margin: 30px;;
+
+}
